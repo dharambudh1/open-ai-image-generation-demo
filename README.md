@@ -1,16 +1,17 @@
-# openai_demo
+# Open AI Image Generation (Beta)
 
-A new Flutter project.
+Learn how to generate images with Open AI's DALL·E models.
 
-## Getting Started
+## API Brief:
+- The Images API provides a method for interacting with images. It is creating images from scratch based on a text prompt.
 
-This project is a starting point for a Flutter application.
+## API Requirements:
+- You require an API Key from the Open AI account. Open API Image Generation API requires an active API Key at the API header parameter. 
 
-A few resources to get you started if this is your first Flutter project:
+## API Usage:
+- The image generations endpoint allows you to create an original image given a text prompt. Generated images can have a size of 256x256, 512x512, or 1024x1024 pixels. Smaller sizes are faster to produce. You can request 1-10 images at a time using the n parameter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To Know more & read the official documentation, visit: https://beta.openai.com/docs/guides/images
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/4xBbXnTj/imgonline-com-ua-twotoone-1-Ce6v757k-Suh-Zj.png "img")
